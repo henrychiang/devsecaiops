@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
     - name: httpd
-      image: registry.access.redhat.com/rhscl/httpd-24-rhel7:latest
+      image: asia-east1-docker.pkg.dev/project-bf939e63-59b6-4338-992/cicd/my-image:cfa9b26e-d56e-4ab8-8205-406b613dfef2
       ports:
         - containerPort: 8080
           name: http
