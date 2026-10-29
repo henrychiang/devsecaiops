@@ -8,7 +8,7 @@ metadata:
 spec:
   containers:
     - name: httpd
-      image: asia-east1-docker.pkg.dev/project-bf939e63-59b6-4338-992/cicd/my-image:dbbe4ec0-abdf-4a7e-a90f-466004e57496
+      image: asia-east1-docker.pkg.dev/project-bf939e63-59b6-4338-992/cicd/my-image:9a876881-f3f1-44ac-b9e4-98c41f97acde
       ports:
         - containerPort: 8080
           name: http
